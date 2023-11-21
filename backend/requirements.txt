@@ -1,0 +1,7 @@
+fastapi
+python-dotenv
+pyowm
+ctransformers
+progressbar
+langchain
+chainlit

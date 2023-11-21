@@ -1,0 +1,6 @@
+.env
+*.bin
+*.model
+*.gguf
+.chainlit
+__pycache__

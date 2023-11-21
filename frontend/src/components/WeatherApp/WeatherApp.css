@@ -1,0 +1,152 @@
+.container {
+    width: 607px;
+    height: 829px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    overflow: scroll;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 60px;
+}
+
+.top-bar input {
+    display: flex;
+    width: 376px;
+    height: 78px;
+    background: #ebfffc;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+} 
+
+.weather-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.weather-temp {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.weather-desc {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.weather-location {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.data-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.data-key {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.data-value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ebfffc;
+    background-color: inherit;
+}
+
+.activity-button {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: black;
+    background: #ebfffc;
+    font-size: 24px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #3816d1;
+    cursor: pointer;
+    border-radius: 5px;
+    hover {
+        background: #39d4bd;
+    }
+}
+
+.chat-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebfffc;
+    color: #3816d1;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+}
